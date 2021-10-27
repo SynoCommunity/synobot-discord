@@ -1,0 +1,9 @@
+dist
+node_modules
+transpiled
+/.idea/
+.env
+worker
+config.ts
+config.json
+config.js
