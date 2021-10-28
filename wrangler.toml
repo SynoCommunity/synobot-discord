@@ -7,8 +7,3 @@ workers_dev = false
 compatibility_date = "2021-10-26"
 
 webpack_config = "webpack.config.js"
-
-[secrets]
-CLIENT_ID=""
-PUBLIC_KEY=""
-SECRET=""

@@ -1,5 +1,8 @@
 # 🤖 `synobot-discord`
 
+Install at https://synobot.seby.io
+
+More information can be found at [@glenstack/cf-workers-discord-bot](https://github.com/glenstack/glenstack/tree/master/packages/cf-workers-discord-bot).
 
 ## Getting Started
 
@@ -29,6 +32,5 @@ npm run lint
 # CLIENT SECRET
 wrangler secret put SECRET
 wrangler publish
+https://synobot.seby.io/setup
 ```
-
-For information on how to preview and publish your worker, please see the [Wrangler docs](https://developers.cloudflare.com/workers/tooling/wrangler/commands/#publish).
