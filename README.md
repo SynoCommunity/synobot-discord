@@ -18,7 +18,6 @@ const publicKey = "";
 const secret = SECRET;
 
 export {clientId, publicKey, secret}
-
 ```
 
 ### Formatting
