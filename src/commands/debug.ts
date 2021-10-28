@@ -1,4 +1,4 @@
-import { SlashCommandBuilder } from '@discordjs/builders'
+// import { SlashCommandBuilder } from '@discordjs/builders'
 
 import {
   ApplicationCommand,
@@ -28,7 +28,7 @@ const debugCommand: ApplicationCommand = {
 const debugHandler: InteractionHandler = async (
   interaction: Interaction,
 ): Promise<InteractionResponse> => {
-  const authorID = interaction.member.user.id
+  //   const authorID = interaction.member.user.id
   const options = (interaction.data && interaction.data.options) || []
   const userID = (options && options[0].value) || ''
 

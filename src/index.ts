@@ -1,7 +1,7 @@
-import { clientId, guildId, token, publicKey, secret } from '../config'
+import { clientId, publicKey, secret } from '../config'
 import { createSlashCommandHandler } from '@glenstack/cf-workers-discord-bot'
 
-import { debugCommand, debugHandler } from './commands/debug'
+// import { debugCommand, debugHandler } from './commands/debug'
 import { certCommand, certHandler } from './commands/cert'
 import { badrequestCommand, badrequestHandler } from './commands/badrequest'
 import { sickchillCommand, sickchillHandler } from './commands/sickchill'

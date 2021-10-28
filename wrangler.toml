@@ -1,5 +1,4 @@
 name = "synobot-discord"
-#type = "javascript"
 type = "webpack"
 zone_id = "f32c8d6d27d6ebdba75d023ea45d1861"
 account_id = "5a007c3f1b1463e3f024ef2a654e3307"
@@ -9,7 +8,7 @@ compatibility_date = "2021-10-26"
 
 webpack_config = "webpack.config.js"
 
-#[build]
-#command = "npm install && npm run build"
-#[build.upload]
-#format = "service-worker"
+[secrets]
+CLIENT_ID=""
+PUBLIC_KEY=""
+SECRET=""
